@@ -13,6 +13,10 @@
 		182477A01DE5C00600C4D6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1824779E1DE5C00600C4D6D5 /* Main.storyboard */; };
 		182477A21DE5C00600C4D6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182477A11DE5C00600C4D6D5 /* Assets.xcassets */; };
 		182477A51DE5C00600C4D6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182477A31DE5C00600C4D6D5 /* LaunchScreen.storyboard */; };
+		182477AD1DE5D1EC00C4D6D5 /* hangbing.png in Resources */ = {isa = PBXBuildFile; fileRef = 182477AC1DE5D1EC00C4D6D5 /* hangbing.png */; };
+		182477B01DE5D66500C4D6D5 /* LZBDIYFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182477AF1DE5D66500C4D6D5 /* LZBDIYFooterView.m */; };
+		182477B31DE5DDDA00C4D6D5 /* LZBDIYHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182477B21DE5DDDA00C4D6D5 /* LZBDIYHeaderView.m */; };
+		182477B61DE5E0CB00C4D6D5 /* LZBBottomViewRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182477B51DE5E0CB00C4D6D5 /* LZBBottomViewRefreshView.m */; };
 		FFACFC39DC7319195F96E06C /* libPods-LZBWebViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A783CAF796CF7A234F75D9 /* libPods-LZBWebViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,13 @@
 		182477A11DE5C00600C4D6D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182477A41DE5C00600C4D6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182477A61DE5C00600C4D6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182477AC1DE5D1EC00C4D6D5 /* hangbing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangbing.png; sourceTree = "<group>"; };
+		182477AE1DE5D66500C4D6D5 /* LZBDIYFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBDIYFooterView.h; sourceTree = "<group>"; };
+		182477AF1DE5D66500C4D6D5 /* LZBDIYFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBDIYFooterView.m; sourceTree = "<group>"; };
+		182477B11DE5DDDA00C4D6D5 /* LZBDIYHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBDIYHeaderView.h; sourceTree = "<group>"; };
+		182477B21DE5DDDA00C4D6D5 /* LZBDIYHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBDIYHeaderView.m; sourceTree = "<group>"; };
+		182477B41DE5E0CB00C4D6D5 /* LZBBottomViewRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBBottomViewRefreshView.h; sourceTree = "<group>"; };
+		182477B51DE5E0CB00C4D6D5 /* LZBBottomViewRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBBottomViewRefreshView.m; sourceTree = "<group>"; };
 		2041BD0128E18DD31E74DDC8 /* Pods-LZBWebViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBWebViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZBWebViewDemo/Pods-LZBWebViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2DA9C650ABD16B625F1B4194 /* Pods-LZBWebViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBWebViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZBWebViewDemo/Pods-LZBWebViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		66A783CAF796CF7A234F75D9 /* libPods-LZBWebViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZBWebViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +76,12 @@
 		182477941DE5C00600C4D6D5 /* LZBWebViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				182477AE1DE5D66500C4D6D5 /* LZBDIYFooterView.h */,
+				182477AF1DE5D66500C4D6D5 /* LZBDIYFooterView.m */,
+				182477B11DE5DDDA00C4D6D5 /* LZBDIYHeaderView.h */,
+				182477B21DE5DDDA00C4D6D5 /* LZBDIYHeaderView.m */,
+				182477B41DE5E0CB00C4D6D5 /* LZBBottomViewRefreshView.h */,
+				182477B51DE5E0CB00C4D6D5 /* LZBBottomViewRefreshView.m */,
 				182477981DE5C00600C4D6D5 /* AppDelegate.h */,
 				182477991DE5C00600C4D6D5 /* AppDelegate.m */,
 				1824779B1DE5C00600C4D6D5 /* ViewController.h */,
@@ -73,6 +90,7 @@
 				182477A11DE5C00600C4D6D5 /* Assets.xcassets */,
 				182477A31DE5C00600C4D6D5 /* LaunchScreen.storyboard */,
 				182477A61DE5C00600C4D6D5 /* Info.plist */,
+				182477AC1DE5D1EC00C4D6D5 /* hangbing.png */,
 				182477951DE5C00600C4D6D5 /* Supporting Files */,
 			);
 			path = LZBWebViewDemo;
@@ -166,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				182477A51DE5C00600C4D6D5 /* LaunchScreen.storyboard in Resources */,
+				182477AD1DE5D1EC00C4D6D5 /* hangbing.png in Resources */,
 				182477A21DE5C00600C4D6D5 /* Assets.xcassets in Resources */,
 				182477A01DE5C00600C4D6D5 /* Main.storyboard in Resources */,
 			);
@@ -227,6 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1824779D1DE5C00600C4D6D5 /* ViewController.m in Sources */,
+				182477B31DE5DDDA00C4D6D5 /* LZBDIYHeaderView.m in Sources */,
+				182477B01DE5D66500C4D6D5 /* LZBDIYFooterView.m in Sources */,
+				182477B61DE5E0CB00C4D6D5 /* LZBBottomViewRefreshView.m in Sources */,
 				1824779A1DE5C00600C4D6D5 /* AppDelegate.m in Sources */,
 				182477971DE5C00600C4D6D5 /* main.m in Sources */,
 			);

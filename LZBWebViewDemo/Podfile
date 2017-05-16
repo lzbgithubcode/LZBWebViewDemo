@@ -1,0 +1,9 @@
+
+
+platform :ios, '8.0'
+
+target 'LZBWebViewDemo' do
+pod 'MJRefresh'
+pod 'AFNetworking', '~> 3.0'
+
+end
